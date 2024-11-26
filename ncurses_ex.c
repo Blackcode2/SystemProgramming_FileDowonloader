@@ -99,3 +99,9 @@ void draw_progress_bars(data_t data[], int selected)
     mvprintw(NUM_DATA+2, 0, "   s:switch, q:quit");
     refresh();
 }
+// >> PID=30449:  5MB.zip         [  46%] [==============          ] Running
+//    PID=30450: 10MB.zip         [  38%] [=========               ] Running
+//    PID=30451: 20MB.zip         [  10%] [====                    ] Running
+//    PID=30452: 50MB.zip         [   4%] [==                      ] Running
+
+//    s:stop, c:continue, x:terminated, q:quit(program)
